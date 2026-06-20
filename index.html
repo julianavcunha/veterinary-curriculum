@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atendimento Veterinário Domiciliar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet"> <!-- Playfair -->
+  </head>
+  <body>
+    <!-- SECTION: Header -->
+    <header class="header">
+      <div>
+        <h1>Dra. Juliana Vaz</h1>
+        
+      
+      <nav class="navbar" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#precos">Preços</a></li>
+          <li><a href="#horarios">Dias &amp; Horários</a></li>
+          <li><a href="#outras-info">Outras informações</a></li>
+          <li><a href="#curriculo">Currículo</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      </div>
+      <!-- Botão de impressão 
+  <button type="button" onclick="window.print()">
+    Imprimir página
+  </button> -->
+</header>
+
+    
+
+    <main>
+      <!-- SECTION: Intro + Services side by side -->
+      <section class="intro-servicos" aria-label="Sobre o atendimento domiciliar e serviços incluídos">
+        <!-- About / Introduction -->
+        <div id="sobre" aria-labelledby="sobre-titulo">
+          <h2 id="sobre-titulo">Sobre o atendimento domiciliar</h2>
+          <p>
+            Ofereço atendimento veterinário domiciliar para cães e gatos, com foco em
+            conforto, praticidade e redução de estresse para o seu animal de estimação.
+          </p>
+          <p>
+            As consultas são realizadas diretamente na sua casa, com horário marcado
+            previamente e atenção individualizada para cada paciente.
+          </p>
+        </div>
+
+        <!-- Services Included -->
+        <div id="servicos" aria-labelledby="servicos-titulo">
+          <h2 id="servicos-titulo">Serviços incluídos</h2>
+          <p>Alguns dos principais serviços oferecidos em domicílio incluem:</p>
+          <ul>
+            <li>Consulta clínica geral</li>
+            <li>Avaliação de filhotes e animais idosos</li>
+            <li>Vacinação e orientação de calendário vacinal</li>
+            <li>Vermifugação e controle de ectoparasitas</li>
+            <li>Coleta de material para exames laboratoriais</li>
+            <li>Orientações sobre nutrição, manejo e bem-estar</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SECTION: Prices + Schedule side by side -->
+      <section class="precos-horarios" aria-label="Preços de consulta e dias e horários de atendimento">
+        <!-- Consultation Prices -->
+        <div id="precos" aria-labelledby="precos-titulo">
+          <h2 id="precos-titulo">Preços de consulta</h2>
+          <p>
+            Os valores podem variar de acordo com a localização e a necessidade do
+            atendimento. Abaixo, uma referência geral:
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Tipo de atendimento</th>
+                <th>Valor aproximado</th>
+                <th>Observações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Consulta clínica domiciliar</td>
+                <td>R$ 150,00</td>
+                <td>Valor base por visita</td>
+              </tr>
+              <tr>
+                <td>Consulta para mais de 1 animal</td>
+                <td>R$ 150,00 (por animal adicional)</td>
+                <td>Aplicado na mesma visita</td>
+              </tr>
+              <tr>
+                <td>
+                  Consulta clínica domiciliar emergencial
+                </td>
+                <td>R$300,00</td>
+                <td>Valor base por visita</td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <p>
+            Para valores atualizados, entre em contato diretamente. Os preços serão
+            informados de acordo com a sua localização e a necessidade do paciente.
+          </p>
+        </div>
+
+        <!-- Work Days & Hours -->
+        <div id="horarios" aria-labelledby="horarios-titulo">
+          <h2 id="horarios-titulo">Dias e horários de atendimento</h2>
+          <p>Atendimentos realizados com horário marcado, de acordo com a agenda.</p>
+          <dl>
+            <div>
+              <dt>Segundas, quartas e sextas</dt>
+              <dd>08h00 &mdash; 17h00</dd>
+            </div>
+            <div>
+              <dt>Sábados</dt>
+              <dd>08h00 &mdash; 13h00</dd>
+            </div>
+            <div>
+              <dt>Domingos e feriados</dt>
+              <dd>Atendimento sob consulta, mediante disponibilidade</dd>
+            </div>
+          </dl>
+          <p>
+            Os horários podem ser ajustados conforme demanda. Sempre confirme a
+            disponibilidade no momento do agendamento.
+          </p>
+        </div>
+      </section>
+
+      <!-- SECTION: Other Information -->
+      <section id="outras-info" aria-labelledby="outras-info-titulo">
+        <h2 id="outras-info-titulo">Outras informações importantes</h2>
+        <article>
+          <h3>Regiões atendidas</h3>
+          <p>
+            Atendimentos preferencialmente em: <strong>Icaraí/Niterói</strong>. Outras
+            localidades podem ser avaliadas mediante combinação prévia e possível taxa
+            adicional de deslocamento.
+          </p>
+        </article>
+        <article>
+          <h3>Formas de pagamento</h3>
+          <p>
+            Dinheiro ou PIX. Detalhes podem ser confirmados no momento do agendamento.
+          </p>
+        </article>
+        <article>
+          <h3>Orientações antes da consulta</h3>
+          <ul>
+            <li>Tenha em mãos a carteira de vacinação do animal, se houver.</li>
+            <li>
+              Anote sintomas, alterações de comportamento e dúvidas que desejar
+              esclarecer.
+            </li>
+            <li>
+              Mantenha o animal em um local tranquilo e seguro até a chegada do
+              veterinário.
+            </li>
+            <li>Se o animal apresentar histórico de agressividade durante consultas, é recomendada a utilização de focinheiras para a segurança de todos. </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- SECTION: Curriculum (placeholder for link) -->
+      <section id="curriculo" aria-labelledby="curriculo-titulo">
+        <h2 id="curriculo-titulo">Currículo</h2>
+        <p>
+          Aqui você poderá acessar <a id="curriculo-link" href="./CV Juliana Vaz.pdf" target="_blank"> meu currículo completo em PDF</a> com detalhes sobre
+          minha formação, experiências e cursos complementares.
+        </p>
+        
+      </section>
+
+      <!-- SECTION: Contact Details -->
+      <section id="contato" aria-labelledby="contato-titulo">
+        <h2 id="contato-titulo">Contato para agendamento</h2>
+        <p>
+          Para agendar um atendimento domiciliar ou tirar dúvidas, entre em contato
+          pelos canais abaixo:
+        </p>
+        <ul>
+          <li><a id="wpp-link" href="https://wa.me/5521998706015" target="_blank">
+            <strong>Whatsapp</strong></a>
+            
+          </li>
+          <li><a id="mail-link" href="mailto:vazcunhajuliana@gmail.com" target="_blank">
+            <strong>Email</strong>
+            </a>
+          </li>
+          
+        </ul>
+        <p>
+          Informe seu bairro, espécie e idade do animal, bem como o motivo do
+          atendimento, para que eu possa orientá-lo(a) da melhor forma possível.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
