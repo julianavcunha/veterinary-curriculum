@@ -1,0 +1,39 @@
+# Ignorar pastas de sistema Windows comuns e caches de aplicativos
+AppData/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar caches de navegadores e outros aplicativos Microsoft/Mozilla
+**/*EBWebView/
+**/*Olk/
+**/*OneDrive/
+**/*Mozilla/
+**/*OneNote/
+**/*PenWorkspace/
+**/*TokenBroker/
+**/*Vault/
+**/*VisualStudio/
+**/*Windows Media/
+**/*Windows Sidebar/
+**/*Windows/
+**/*WindowsApps/
+**/*XboxLive/
+**/*TypeScript/
+**/*fluency/
+**/*input/
+**/*MicrosoftEdge/
+
+# Ignorar logs e outros arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ign Ignorar a pasta 'meu-curriculo' se ela não for mais necessária
+# meu-curriculo/
+
+# Se você tiver a pasta 'documentos' para o PDF, NÃO a ignore
+# Remova o '#' da linha abaixo se você quer ignorar a pasta 'documentos' inteira
+# documentos/
